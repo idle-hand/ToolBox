@@ -10,3 +10,7 @@ People on job site or at home can check tools in and out of the inventory or com
 physical location of tools will either be in central physical tool inventory on site or company location or in posession of the
 employee that checks the tool out of the box 
 
+This code is just to work out the classes and sub-classes useful to organize the inventory and allow check in / check out by an
+employee class objects - mobile platform distro would req. perhaps kivy to realize and not really the purpose of this exercise.
+
+
