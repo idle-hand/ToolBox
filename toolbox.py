@@ -12,40 +12,53 @@ and out of main inventory, that tracks damaged or missing tools
 class MainBox:
     
     '''Full Tool Inventory e.g. Main Tool Box for company '''
-    def __init__(self,name,descrip,idnum,loc,status):
+    def __init__(self,name, descrip, idnum, loc, status, toolage):
         self.name = name
         self.descrip = descrip
         self.idnum = idnum
         self.loc = loc
         self.status = status
-
+        self.toolage = toolage
+        
 
 
 # def add tool,
 # remove tool,
 # assign too        
 
-# sub class perhaps per wikipedia, Hand-held power tools
-# Knives
-# Ladders
-# Mechanical hand tools
-# Metalworking hand tools
-# Woodworking hand tools
 
-# HAND TOOLS per random PDF
-##Hammers
-##Pliers
-##Screwdrivers
-##Drilling Tools
-##Wrenches
-##Cutting Tools
-##Measureing Devices
-##Levels
-##Axes and Hatchets
-##Saws
-##Fastening Tools
-##Storage Items
 
+##Hammers - class Hammer
+##Pliers - class Plier
+##Screwdrivers - class Driver
+##Drilling Tools - class Drill
+##Wrenches - class Wrench
+##Cutting Tools - class Cutting
+##Measureing Devices class Measure
+##Levels class Level
+##Axes and Hatchets = class cutting
+##Saws class cutting
+##Storage Items calss Storage 
+
+class Driver(MainBox):
+    
+    def__init__(self, name, descrip, idnum, loc, status, toolage, subtype, head)
+        MainBox.__init__(self, name, descrip, idnum, loc, status, toolage)
+        self.subtype = subtype
+        self.head = head
+
+        
+class Hammer(MainBox):
+    
+    def__init__(self, name, descrip, idnum, loc, status, toolage, subtype, handle)
+        MainBox.__init__(self, name, descrip, idnum, loc, status, toolage)
+        self.subtype = subtype
+        self.handle = handle        
+      
+    
+    
+    
+        
 class HandTools(MainBox):
     
     def __init__(self, name, descrip, idnum, loc, status, subtype, quant):
@@ -63,9 +76,9 @@ class Employee:
         self.subcontr = subcontr
         self.contact = contact
         
-driver1 = HandTools('philips','4 inch',101,'site one','out','non power',100)
-driver2 = HandTools('philips','6 inch',102,'site one','in','non power',100)
-hammer1 = HandTools('regal','12 inch',201,'site three','out','non power',150)
+driver1 = Driver('philips','4 inch',101,'site one','out','non power',100)
+driver2 = (Driver('philips','6 inch',102,'site one','in','non power',100)
+hammer1 = Hammer('regal','12 inch',201,'site three','out','non power',150)
 emp101 = Employee ('David D. David','500 Canada Ave','28/12/2001','Active','Yes','555-5555')
 
 
