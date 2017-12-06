@@ -33,7 +33,4 @@ employee class objects - mobile platform distro would req. perhaps kivy to reali
 ##
 ##Taking these first three tool tracking steps and getting organized is going to take effort, but with modern technology, it is completely do-able. (And by modern technology, we do not mean the old desktop PC in the back office.) Whether you’re trying to build your own process or evaluating a tool tracking system, be sure it starts with getting organized. Ignorance is not bliss when it comes to tool tracking (or not tracking). Take advantage of the technology available to make your life simpler – and your bottom line healthier.
 ##
-##To learn more about tool tracking technology that helps you easily
-##organize your tool inventory, visit
-##www.sharemytoolbox.com/tool-tracking.
 
