@@ -14,3 +14,26 @@ This code is just to work out the classes and sub-classes useful to organize the
 employee class objects - mobile platform distro would req. perhaps kivy to realize and not really the purpose of this exercise.
 
 
+## a tool tracking app that assigns accountability to a person who “signs out” a particular tool. This kind of app doesn’t rely on beacons to track tools, but rather shifts the responsibility to the person last assigned to the tools. An app like ShareMyToolbox creates a “catalog” of tools and assigns the tool to an employee who “accepts” it in the app. His/her responsibility for the tool is easy for everyone to see and, once the tool is returned to the warehouse, the name of the borrower is removed as the responsible party.
+##
+##Think about it: when a member of your team knows there’s a digital
+##record of who has a particular tool, they won’t leave it lying among
+##piles of debris on a remote job location. Instead, he/she will be more
+##compelled to return it to the inventory that you’re managing.
+####
+
+##1. Know what you currently have.
+##The first step is to compile a current inventory of all tools and equipment. How are you going to track it if you don’t even know you have it? When you know what you already own, you’ll buy fewer duplicates, saving you money – and sanity.
+##
+##2. Know where it currently is.
+##Obviously, tools and equipment move in the field – that’s part of what makes tracking them a challenge. But look at the list of what you currently own, and answer the question: right now, where is it?
+##
+##3. Know how long you’ve had it.
+##You know all that equipment isn’t built to last forever. It’s important to know how long you’ve owned something so you can anticipate needed maintenance or replacement, and also be sure your equipment is lasting as long as it should.
+##
+##Taking these first three tool tracking steps and getting organized is going to take effort, but with modern technology, it is completely do-able. (And by modern technology, we do not mean the old desktop PC in the back office.) Whether you’re trying to build your own process or evaluating a tool tracking system, be sure it starts with getting organized. Ignorance is not bliss when it comes to tool tracking (or not tracking). Take advantage of the technology available to make your life simpler – and your bottom line healthier.
+##
+##To learn more about tool tracking technology that helps you easily
+##organize your tool inventory, visit
+##www.sharemytoolbox.com/tool-tracking.
+
