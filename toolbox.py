@@ -22,6 +22,7 @@ class MainBox:
         
 
 
+
 # def add tool,
 # remove tool,
 # assign too        
@@ -40,6 +41,21 @@ class MainBox:
 ##Saws class cutting
 ##Storage Items calss Storage 
 
+class Drills(MainBox):
+    
+    def__init_(self,name, descrip, idnum, loc, status, toolage, power, bits)
+        MainBox.__init__(self, name, descrip, idnum, loc, status, toolage)
+        self.power = power
+        self.bits = bits
+        
+
+class Cutting(MainBox):
+    
+    def__init__(self,name, descrip, idnum, loc, status, toolage, subtype, tsize)
+        MainBox.__init__(self, name, descrip, idnum, loc, status, toolage)
+        self.subtype = subtype
+        self.tsize = tsize
+        
 class Driver(MainBox):
     
     def__init__(self, name, descrip, idnum, loc, status, toolage, subtype, head)
@@ -54,18 +70,6 @@ class Hammer(MainBox):
         MainBox.__init__(self, name, descrip, idnum, loc, status, toolage)
         self.subtype = subtype
         self.handle = handle        
-      
-    
-    
-    
-        
-class HandTools(MainBox):
-    
-    def __init__(self, name, descrip, idnum, loc, status, subtype, quant):
-        MainBox.__init__(self, name, descrip, idnum, loc, status)
-        self.subtype = subtype
-        self.quant = quant
-
                     
 class Employee:
     def __init__(self,name,address, hiredate, status, subcontr,contact):
@@ -81,6 +85,12 @@ driver2 = (Driver('philips','6 inch',102,'site one','in','non power',100)
 hammer1 = Hammer('regal','12 inch',201,'site three','out','non power',150)
 emp101 = Employee ('David D. David','500 Canada Ave','28/12/2001','Active','Yes','555-5555')
 
+drill1 = Drills('De-Walt','Corded',307,'Tool Crib','in',)
+           
+print(drill1)
+           
+             
+           
 
 
 print(driver1.name,driver1.descrip,driver1.idnum)
