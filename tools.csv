@@ -1,0 +1,57 @@
+name,descrip,idnum,loc,status,age_of_tool
+Slot,Screw-driver,1001,crib one,in,1
+Cross,Screw-driver,1002,crib one,in,1
+Phillips,Screw-driver,1003,crib one,in,1
+Frearson,Screw-driver,1004,crib one,in,1
+French Recess,Screw-driver,1005,crib one,in,1
+Robertson,Screw-driver,1006,crib one,in,1
+Hex Socket,Screw-driver,1007,crib one,in,1
+Double hex,Screw-driver,1008,crib one,in,1
+Combo Drive,Screw-driver,1009,crib one,in,1
+Torx,Screw-driver,1010,crib one,in,1
+Hex ,Screw-driver,1011,crib one,in,1
+Pentagon,Screw-driver,1012,crib one,in,1
+Slotted Torx,Screw-driver,1013,crib one,in,1
+,,1014,crib one,in,1
+hammer,,1015,crib one,in,1
+,,1016,crib one,in,1
+Ball-peen,hammer,1017,crib one,in,1
+Boiler scaling,hammer,1018,crib one,in,1
+Cross Peen,hammer,1019,crib one,in,1
+Joiner’s,hammer,1020,crib one,in,1
+Knife-edge,hammer,1021,crib one,in,1
+Mallets,hammer,1022,crib one,in,1
+Rock Climbing,hammer,1023,crib one,in,1
+Rounding ,hammer,1024,crib one,in,1
+Spitting maul,hammer,1025,crib one,in,1
+Tinners ,hammer,1026,crib one,in,1
+Upholstery ,hammer,1027,crib one,in,1
+Welder’s  ,hammer,1028,crib one,in,1
+Soft -faced,hammer,1029,crib one,in,1
+,,1030,crib one,in,1
+Mech-hammer,,1031,crib one,in,1
+,,1032,crib one,in,1
+Staple gun,Mech-hammer,1033,crib one,in,1
+Hammer drill,Mech-hammer,1034,crib one,in,1
+Jackhammer,Mech-hammer,1035,crib one,in,1
+Steam hammer,Mech-hammer,1036,crib one,in,1
+Trip hammer,Mech-hammer,1037,crib one,in,1
+,,1038,crib one,in,1
+Generator,,1039,crib one,in,1
+,,1040,crib one,in,1
+1000w,Generator,1041,crib one,in,1
+1500w,Generator,1042,crib one,in,1
+3500w,Generator,1043,crib one,in,1
+7500w,Generator,1044,crib one,in,1
+10000w,Generator,1045,crib one,in,1
+,,1046,crib one,in,1
+Cutting Tool,,1047,crib one,in,1
+,,1048,crib one,in,1
+Snips – large,Cutting Tool,1049,crib one,in,1
+Snips – sml,Cutting Tool,1050,crib one,in,1
+Wire cutters,Cutting Tool,1051,crib one,in,1
+Axes,Cutting Tool,1052,crib one,in,1
+Hatchets,Cutting Tool,1053,crib one,in,1
+Hand-saws,Cutting Tool,1054,crib one,in,1
+,,1055,crib one,in,
+Cutting Tools,,,,,
