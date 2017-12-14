@@ -8,7 +8,7 @@ and out of main inventory, that tracks damaged or missing tools
 '''
 
 
-class Tools:
+class Tool:
 
     '''Full Tool Inventory e.g. Main Tool Box for company '''
     def __init__(self,name, descrip, idnum, loc, status, toolage):
@@ -27,49 +27,36 @@ class Tools:
 # assign too
 
 
-
-##Hammers - class Hammer
-##Pliers - class Plier
-##Screwdrivers - class Driver
-##Drilling Tools - class Drill
-##Wrenches - class Wrench
-##Cutting Tools - class Cutting
-##Measureing Devices class Measure
-##Levels class Level
-##Axes and Hatchets = class cutting
-##Saws class cutting
-##Storage Items calss Storage
-
-class Drills(Tools):
+class Drill(Tool):
 
     def __init_(self,name, descrip, idnum, loc, status, toolage, power, bits):
 
-        Tools.__init__(self, name, descrip, idnum, loc, status, toolage)
+        Tool.__init__(self, name, descrip, idnum, loc, status, toolage)
         self.power = power
         self.bits = bits
 
 
-class Cutting(Tools):
+class Cutting(Tool):
 
     def __init__(self,name, descrip, idnum, loc, status, toolage, subtype, tsize):
 
-        Tools.__init__(self, name, descrip, idnum, loc, status, toolage)
+        Tool.__init__(self, name, descrip, idnum, loc, status, toolage)
         self.subtype = subtype
         self.tsize = tsize
 
-class Driver(Tools):
+class Driver(Tool):
 
     def __init__(self, name, descrip, idnum, loc, status, toolage, subtype, head):
 
-        Tools.__init__(self, name, descrip, idnum, loc, status, toolage)
+        Tool.__init__(self, name, descrip, idnum, loc, status, toolage)
         self.subtype = subtype
         self.head = head
 
 
-class Hammer(Tools):
+class Hammer(Tool):
 
     def __init__(self, name, descrip, idnum, loc, status, toolage, subtype, handle):
-        Tools.__init__(self, name, descrip, idnum, loc, status, toolage)
+        Tool.__init__(self, name, descrip, idnum, loc, status, toolage)
         self.subtype = subtype
         self.handle = handle
 
@@ -102,7 +89,7 @@ driver2 = Driver('philips','6 inch',102,'site one','in','non power',100,'head')
 hammer1 = Hammer('regal','12 inch',201,'site three','out','non power','short',150)
 emp101 = Employee ('David D. David','500 Canada Ave','28/12/2001','Active','Yes','555-5555')
 
-drill1 = Drills('De-Walt','Corded',307,'Tool Crib','in','2 years')
+drill1 = Drill('De-Walt','Corded',307,'Tool Crib','in','2 years')
 
 
 
@@ -123,7 +110,7 @@ driver4 = Driver('philips','6 inch',102,'site one','in','non power',100,'head')
 hammer2 = Hammer('regal','12 inch',201,'site three','out','non power','short',150)
 emp102 = Employee ('Howie D. Howie','1500 Winipe Ste','28/12/2011','Active','Yes','555-5555')
 
-drill2 = Drills('Stanly','6 Volt',307,'Tool Crib','in','2 years')
+drill2 = Drill('Stanly','6 Volt',307,'Tool Crib','in','2 years')
 
 
 
