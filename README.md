@@ -34,3 +34,8 @@ employee class objects - mobile platform distro would req. perhaps kivy to reali
 ##Taking these first three tool tracking steps and getting organized is going to take effort, but with modern technology, it is completely do-able. (And by modern technology, we do not mean the old desktop PC in the back office.) Whether you’re trying to build your own process or evaluating a tool tracking system, be sure it starts with getting organized. Ignorance is not bliss when it comes to tool tracking (or not tracking). Take advantage of the technology available to make your life simpler – and your bottom line healthier.
 ##
 
+
+updated dec. 2017
+learning lots but no real progess on the coding - still working on sample data - but has learned to open and read sqlite3 databases into scripts and now think I will re-write the whole concept with limited focus on the classes side - will use some for practice but keep it very simple until I use the features and learn by doing and seeing the advantage of setting up classes - keeping related data varibles with related functions wrapped up in a class defintion - works for me - but implementation on a small scall has been rather confusing and will still require more practice - hence rewrite the script and edit the database tables - put more thougt into meaningful and simple names for stuff etc.
+
+
