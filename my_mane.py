@@ -10,7 +10,7 @@ pnames = []
 pdescrp = []
 pid_nums = []
 plocate = []
-pstatus = []
+pbuy_date = []
 
 cursor = c.execute("SELECT tname, descrp, id_num, locate, buy_date from tools")
 
@@ -18,19 +18,19 @@ cursor = c.execute("SELECT tname, descrp, id_num, locate, buy_date from tools")
 for row in cursor:
 
     name = row[0]
-    descrp = [1]
-    id_num = [2]
-    locate = [3]
-    status = [4]
+    descrp = row[1]
+    id_num = row[2]
+    locate = row[3]
+    buy_date = row[4]
     
     pnames.append(name)
     pdescrp.append(descrp)
     pid_nums.append(id_num)
     plocate.append(locate)
-    pstatus.append(status)
+    pbuy_date.append(buy_date)
     
 for name in pnames:
-    print(name, id_num, locate)
+    print(name, descrp, id_num, locate, buy_date)
 
 # Save (commit) the changes
 conn.commit()
