@@ -1,10 +1,6 @@
 import sqlite3
 conn = sqlite3.connect('mane.db')
 c = conn.cursor()
-# Create table
-# c.execute('''CREATE TABLE tools
-#(tname text, descrp text, id_num text, locate text, buy_date text)''')
-# Insert a row of data
 
 pnames = []
 pdescrp = []
@@ -31,6 +27,8 @@ for row in cursor:
     
 for name in pnames:
     print(name, descrp, id_num, locate, buy_date)
+    print('main tool box inventory -- main tool box inventoy','\n\n')
+
 
 # Save (commit) the changes
 conn.commit()
@@ -38,5 +36,23 @@ conn.commit()
 # Just be sure any changes have been committed or they will be lost.
 conn.close()
 
+##CREATE TABLE employ (
+##    ename     TEXT,
+##    email     TEXT,
+##    emp_num   TEXT,
+##    hire_date TEXT
+##);
+##
+##CREATE TABLE tools (
+##    tname    TEXT,
+##    descrp   TEXT,
+##    id_num   TEXT,
+##    locate   TEXT,
+##    buy_date TEXT
+##);
 
-## (tname text, descrp text, id_num text, locate text, buy_date text)
+
+# Create table
+# c.execute('''CREATE TABLE tools
+#(tname text, descrp text, id_num text, locate text, buy_date text)''')
+# Insert a row of data
