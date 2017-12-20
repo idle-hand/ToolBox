@@ -1,0 +1,14 @@
+CREATE TABLE sqlite_sequence(name,seq);
+CREATE TABLE tool_one (
+    "tool_name" TEXT,
+    "tool_num" INTEGER,
+    "location" TEXT,
+    "in_use" TEXT
+);
+CREATE TABLE employee (
+    "emp_num"  NOT NULL,
+    "first_name" TEXT,
+    "last_name" TEXT,
+    "position" TEXT,
+    "hire_date" TEXT
+);
