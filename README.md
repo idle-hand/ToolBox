@@ -5,6 +5,15 @@ working code on a small scale inventory to manage limited tool database and
 employee database so - employee can pull and return tools from inventory and 
 system can know where each tool is and the condition of said tool at any given time
 
+***********************************************************************
+***********************************************************************
+##Think about it: when a member of your team knows there’s a digital
+##record of who has a particular tool, they won’t leave it lying among
+##piles of debris on a remote job location. Instead, he/she will be more
+##compelled to return it to the inventory that you’re managing.
+####
+***********************************************************************
+***********************************************************************
 This will need to be a mobile app, or rather already is - lots done already on the market
 People on job site or at home can check tools in and out of the inventory or company's main toolbox
 physical location of tools will either be in central physical tool inventory on site or company location or in posession of the
